@@ -17,10 +17,3 @@ public class SelectionSort {
     }
 }
 
-@Test
-public void selectionSortTest()
-{
-    Integer[] arr = {6,3,1,9,2,8,5,3,6};
-    new SelectionSort().sort(arr,false);
-    System.out.println(Arrays.toString(arr));
-}
