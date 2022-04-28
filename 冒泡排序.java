@@ -10,3 +10,11 @@ public class BubbleSort {
         }
     }
 }
+
+@Test
+public void bubbleSortTest()
+{
+    Integer[] arr = {6,3,1,9,2,8,5,3,6};
+    new BubbleSort().sort(arr,false);
+    System.out.println(Arrays.toString(arr));
+}
