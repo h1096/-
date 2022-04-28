@@ -12,11 +12,3 @@ public class InsertionSort {
         }
     }
 }
-
-@Test
-public void InsertionSortTest()
-{
-    Integer[] arr = {6,3,1,9,2,8,5,3,6};
-    new InsertionSort().sort(arr, false);
-    System.out.println(Arrays.toString(arr));
-}
